@@ -12,3 +12,13 @@ The Assigns file is a script used to set up the parameters of a SMOKE run. The f
 Environment variables are aliases that can be set by a UNIX operating system. These variables are defined during a user's UNIX session, usually defined by an xterm or other UNIX terminal window. The environment variables that SMOKE uses store the input, intermediate, and output files and directories. For example, the environment variable for the directory that is the SMOKE root directory is SMKROOT. At the UNIX prompt, this environment variables could be defined to an actual path such as /home/mylogin/smoke. To set an environment variable, the UNIX setenv command is needed. In this example, the command to define SMKROOT as the given path is :
 
 ## setenv SMKROOT /home/mylogin/smoke 
+
+After this command is issued, the SMKROOT environment variable stores the characters /home/mylogin/smoke as its value. To use the value of an environment variable, the dollar sign must proceed the variable name at the UNIX prompt. In the follow example, we give the UNIX command echo to print the contents of the SMKROOT environment variable at the UNIX prompt. Note the use of the dollar sign before the SMKROOT variable name.
+
+## echo $SMKROOT
+
+When the UNIX system executes this command, the following is displayed at the UNIX prompt:
+
+/home/mylogin/smoke
+
+The environment variables set by the Assigns file for directories are described in Chapter 3, SMOKE Directory Structure. The variables used by the SMOKE scripts for controlling SMOKE execution are described in Section
