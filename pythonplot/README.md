@@ -3,6 +3,5 @@
 2. you obtain some softpacks, netCDF4、numpy、matplotlib、GDAL(建议Linux下安装，非常好用尤其处理影像数据)、pandas、scipy and so on. visit https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
   2.1 netcdf数据处理：
-  
-    netCDF4(http://unidata.github.io/netcdf4-python/)
-    xarray(http://xarray.pydata.org/en/stable/)
+  netCDF4(http://unidata.github.io/netcdf4-python/)
+  xarray(http://xarray.pydata.org/en/stable/)
