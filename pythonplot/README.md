@@ -6,5 +6,6 @@
   2.1 netcdf数据处理：
   
   netCDF4(http://unidata.github.io/netcdf4-python/)
+  from netCDF4 import Dataset 
   
   xarray(http://xarray.pydata.org/en/stable/)
