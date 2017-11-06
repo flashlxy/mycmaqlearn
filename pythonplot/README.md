@@ -15,3 +15,5 @@
   
   其次pyhdf(http://hdfeos.org/software/pyhdf.php)
   
+  以上处理气象、空气质量模型数据是搓搓有余
+  
