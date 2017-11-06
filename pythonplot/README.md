@@ -1,2 +1,2 @@
 ## you can use the python plot CMAQ out 
-## First, install python visit https://www.python.org/
+## First, install python visit https://www.python.org/ for Linux or Windows
