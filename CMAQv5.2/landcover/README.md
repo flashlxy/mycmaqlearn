@@ -1,4 +1,4 @@
-# landuse data process
+ # landuse data process (python 版本自己学)
 
 1. you can visit https://e4ftl01.cr.usgs.gov/MOTA/ to obtain data
 
