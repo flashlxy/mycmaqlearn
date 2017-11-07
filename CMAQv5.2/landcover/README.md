@@ -1,4 +1,3 @@
-
 # landuse data process
 
 1. you can visit https://e4ftl01.cr.usgs.gov/MOTA/ to obtain data
@@ -39,6 +38,8 @@ computeGridLandUse tool.**
 http://blog.sina.com.cn/s/blog_71261a2d01016ma6.html
 
 https://wiki.earthdata.nasa.gov/display/EL/How+To+Access+Data+With+Python
+
+http://docs.opendap.org/index.php/DAP_Clients_-_Authentication
 
    
    
