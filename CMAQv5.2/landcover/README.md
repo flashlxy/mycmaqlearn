@@ -34,7 +34,12 @@ computeGridLandUse tool.**
 |19|19 |Reserved (e.g., Fill Value ) |  39 |90|Woody Wetlands|
 |20|20| Reserved| 40 | 95|Emergent Herbaceous Wetlands|
 
-3. use perl download and refer on  http://blog.sina.com.cn/s/blog_71261a2d01016ma6.html
+3. use perl download and refer on 
+
+http://blog.sina.com.cn/s/blog_71261a2d01016ma6.html
+
+https://wiki.earthdata.nasa.gov/display/EL/How+To+Access+Data+With+Python
+
    
    
    a.perl -MCPAN -e shell
