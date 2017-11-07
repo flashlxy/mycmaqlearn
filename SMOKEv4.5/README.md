@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 The purpose of SMOKE is to convert the resolution of the data in an emission inventory to the resolution needed by an air quality model. Emission inventories typically have an annual-total emissions value for each emissions source, or perhaps an average-day emissions value. The AQMs, however, typically require emissions data on an hourly basis, for each model grid cell(and perhaps model layer), and for each model species. Consequently, to achieve the input requirements of the AQM, emissions processing must(at a minimum) transform inventory data by temporal allocation, chemical speciation, spatial allocation, and perhaps layer assignment.
 
 In addition to changing the resolution of the data, SMOKE must also provide the AQM input files in the correct file format. SMOKE can create the Input/Output Applications Programming Interface(I/O API) Network Common Data Form(NetCDF) output format needed by the CMAQ and MAQSIP models. It can also create the Fortran binary format for the 2-D emissions needed by REMSAD, UAM, and CAMx, and the ASCII elevated-point-source format used by the Ptsrce preprocessor to these models. File format is also important for the input files used by SMOKE, most of which are ASCII files, but some of which are I/O API NetCDF or CF-compliant NetCDF format files.
@@ -38,7 +38,7 @@ Additionally, SMOKE can process inventories with pre-speciated criteria and/or p
 
 The toxics inventories that SMOKE can process are data from the National Emisson Inventory (NEI) for Hazardous Air Pollutants (HAPs). This inventory contains hundreds of specific compounds representing the 188 HAPs defined by the Clear Air Act. The original list of 189 HAPs and modifications representing the current list are available from the EPA's web site [http://www.epa.gov/ttn/atw/orig189.html]. The reason the inventory contains many more pollutants than 188 is because several on the list of 188 are pollutant groubs, such as polycyclic organic matter, cyanide compounds and numerous metal compounds including chromium compounds, cadmium compounds, manganese compounds, and others. Note that because of these groups, specific compounds in the inventory in one inventory year may not exactly match the compounds in another inventory year. For example, one may have lead oxide reported one year but not in a subsequent year. However, those compounds not belonging to compound groups are likely to be in the inventory year that year, particularly the common gaseous HAPs emitted by mobile sources such as benzene, 1,3-butadiene, acrolein, formaldehyde, and acetaldehyde.
 
-## Inventory source categories
+# Inventory source categories
 
 ## Overview
 
