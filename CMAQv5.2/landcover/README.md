@@ -1,3 +1,4 @@
+
 # landuse data process
 
 1. you can visit https://e4ftl01.cr.usgs.gov/MOTA/ to obtain data
@@ -32,3 +33,5 @@ computeGridLandUse tool.**
 |18|18|Reserved (e.g., Unclassified)|  38| 82 |Cultivated Crops|
 |19|19 |Reserved (e.g., Fill Value ) |  39 |90|Woody Wetlands|
 |20|20| Reserved| 40 | 95|Emergent Herbaceous Wetlands|
+
+3. use perl download and refer on  http://blog.sina.com.cn/s/blog_71261a2d01016ma6.html
