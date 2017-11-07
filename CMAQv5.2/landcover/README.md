@@ -4,4 +4,4 @@
 
 2. 此处需要用到“MODLAND Tile Calculator”工具，确定你所选定的区域位于那个投影分带块
 
-https://landweb.modaps.eosdis.nasa.gov/cgi-bin/developer/tilemap.cgi
+   visit:https://landweb.modaps.eosdis.nasa.gov/cgi-bin/developer/tilemap.cgi
