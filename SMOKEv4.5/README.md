@@ -21,4 +21,14 @@ When the UNIX system executes this command, the following is displayed at the UN
 
 /home/mylogin/smoke
 
-The environment variables set by the Assigns file for directories are described in Chapter 3, SMOKE Directory Structure. The variables used by the SMOKE scripts for controlling SMOKE execution are described in Section
+The environment variables set by the Assigns file for directories are described in Chapter 3, SMOKE Directory Structure. The variables used by the SMOKE scripts for controlling SMOKE execution are described in Section 4.2.4. Finally, the environment variables that control program behavior are discribed in chapter 5, SMOKE Utility Tools, Chapter 6, SMOKE Core program, and Chapter 7, SMOKE Quality Assurance.
+
+## Emission inventories
+
+Emission inventories are the key input files to SMOKE and emissions modeling. The data types that these inventories contain are called inventories pollutants(e.g., carbon monoxide, ammmonia, mercury). By itself, SMOKE does not require specific data types in the inventory files it reads. However, the AQMs that SMOKE supports do require certain input data, called model species, which in turn requires SMOKE to use certain inventory pollutants.
+
+In this section, we focus on the inventory files that SMOKE uses. Section 2.3.1, "Inventory data types" describes the major inventory types useable by SMOKE. In Section 2.3.2, "Inventory source categories", we describe the inventory source categories, and in Section 2.3.3, "Inventory file formats" we discuss the inventory file formats. The remaining sections decribe the various codes used in specific inventory sources: Section 2.3.4, "Country, state, and county codes", Section 2.3.5, "Source Classification Codes", Section 2.3.6, "Standard Industrial Classification codes", Section 2.3.8, "Maximum Achievable Control Technology codes", Section 2.3.9, "Source types: major and section-112 area sources" and Section 2.3.10, "Source types: nonroad and onroad mobile source".
+
+## Inventory data types
+
+SMOKE processes criteria, particulate, toxics, and activity data inventories. Activity data will be discussed along with on-road mobile sources in the next section. By criteria inventories, we mean inventories containing EPA's criteria pollutants: carbon monoxide (CO), nitrogen oxides (NOx), and volatile organic compounds (VOC) or total organic gases (TOG). Particulate inventories contain ammonia (NH3)
