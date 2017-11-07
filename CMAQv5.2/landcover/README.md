@@ -34,4 +34,7 @@ computeGridLandUse tool.**
 |20|20| Reserved| 40 | 95|Emergent Herbaceous Wetlands|
 
 3. use perl download and refer on  http://blog.sina.com.cn/s/blog_71261a2d01016ma6.html
-   install LWP::UserAgent
+   
+   a.perl -MCPAN -e shell
+   
+   b.install LWP::UserAgent
