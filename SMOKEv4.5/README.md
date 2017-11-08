@@ -33,7 +33,7 @@ In this section, we focus on the inventory files that SMOKE uses. Section 2.3.1,
 ## Inventory data types
 
 SMOKE processes criteria, particulate, toxics, and activity data inventories. Activity data will be discussed along with on-road mobile sources in the next section. By criteria inventories, we mean inventories containing EPA's criteria pollutants: carbon monoxide (CO), nitrogen oxides (NOx), and volatile organic compounds (VOC) or total organic gases (TOG). Particulate inventories contain ammonia (NH3)
-, sulfur dioxide (SO2), particulate matter (PM) of size 10 microns or less (PM10), and PM of size 2.5 microns or less (PM2.5).
+, sulfur dioxide (SO2), particulate matter (PM) of size 10 microns or less (PM10), and PM of size 2.5 microns or less (PM2.5). visit ftp://cidportal.jrc.ec.europa.eu/jrc-opendata/EDGAR/datasets/htap_v2_2/ALL/
 
 Additionally, SMOKE can process inventories with pre-speciated criteria and/or particulate emissions. For example, elemental carbon of size 2.5 microns or less can be provided as input to SMOKE directly, instead of letting SMOKE's speciation step compute it from the PM2.5 total emissions. To ensure that SMOKE correctly processes the data when you are using pre-speciated emissions, other input files must be configured in specific ways, as explained in Section 4.4.10, "Use a different speciation mechanism or change speciation inputs"
 
